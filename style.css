@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.2;
+
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 30px;
+}
+
+header {
+    background-color: #69696986;
+    color: #ffffffd2;
+    text-align: center;
+}
+
+nav {
+    background-color: #317a7a;
+    display: flex;
+    justify-content: center;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    background-color: #9ba3cf;
+    flex-grow: 1;
+    
+  } 
+       {
+
+
+  }
+  
+  footer {
+    background-color: #317a7a;
+    color: #fff;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  <style>
+
+ a:link {
+  color: rgba(8, 8, 8, 0.788);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(8, 8, 8, 0.397);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(8, 8, 8, 0.336);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgba(8, 8, 8, 0.788);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+  label,
+  input,
+  textarea,
+  button {
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #746ba5;
+  }
+  
+
+img {
+    display: block;
+    width: 1200px;
+    height: auto;
+  }
+
+  .social-media {
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #e06b6b;
+    font-weight: bold;
+  }
+  
+  .social-media a:hover {
+    color: #8f5a5a57;
+  }
+  
